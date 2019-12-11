@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialProgram", "FinancialProgram\FinancialProgram.csproj", "{F6EA05C1-E994-44EF-B2E6-FD2C729EAF8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceLib", "ServiceLib\ServiceLib.csproj", "{1F2D0274-DEC7-4B00-97BA-18A8EA618BF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6EA05C1-E994-44EF-B2E6-FD2C729EAF8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6EA05C1-E994-44EF-B2E6-FD2C729EAF8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6EA05C1-E994-44EF-B2E6-FD2C729EAF8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6EA05C1-E994-44EF-B2E6-FD2C729EAF8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2D0274-DEC7-4B00-97BA-18A8EA618BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2D0274-DEC7-4B00-97BA-18A8EA618BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2D0274-DEC7-4B00-97BA-18A8EA618BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2D0274-DEC7-4B00-97BA-18A8EA618BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50A6B9C-D57D-4307-AD38-855C5AD02799}
+	EndGlobalSection
+EndGlobal

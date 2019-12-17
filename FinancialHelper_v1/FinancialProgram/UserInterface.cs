@@ -25,12 +25,6 @@ namespace FinancialProgram
         public void CustomerService()
         {
             int operation = 0;
-            /*Storage storage = new Storage();
-            IInputOutputData expense = new Expense();
-            IInputOutputData income = new Income();
-            VisualisationData visualisation = new VisualisationData();
-            AnaliseServices service = new AnaliseServices();*/
-
             const string info = "\n1 - Ввести операцию дохода\n2 - Ввести операцию расхода\n3 - Информация по операциям дохода" +
                                 "\n4 - Информация по операциям расхода \n5 - Анализ расходов и доходов\n9 - Выход из программы" +
                                 "\n\n\nВведите номер операции:";

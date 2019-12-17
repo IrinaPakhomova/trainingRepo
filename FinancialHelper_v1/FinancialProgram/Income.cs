@@ -6,11 +6,33 @@ namespace FinancialProgram
 {
     class Income : IInputOutputData
     {
-        public void Input(DateTime date, decimal amount, Storage storage)
+        decimal tax ;
 
+        public decimal Tax {
+            get
+            {
+                return tax;
+            }
+        }
+
+        public Income(): this(13)
         {
-            OperationEntity op = new OperationEntity(date, amount);
+        }
+        public Income(decimal tax)
+        {
+            this.tax = tax;
+        }
+
+        public void Input(DateTime date, decimal amount, Storage storage)
+        {
+            decimal valueTax = GetTax(amount, tax);
+            OperationEntity op = new OperationEntity(date, amount - valueTax);
             storage.WriteDataToStorage(op);
+        }
+
+        private decimal GetTax(decimal amount, decimal tax)
+        {
+            return amount * tax / 100;
         }
 
         public List<OperationEntity> GetDataOperations(Storage storage)
